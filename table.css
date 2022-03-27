@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.demostrativo{
+    width: 100%;
+  height: 100px;
+}
+table{
+    margin: auto;
+    padding: 0px;
+    grid-column-start: 1;
+}
+tr{
+    
+    text-align: center;
+}
+.box {
+    width: 600px;
+  height: 50px;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+}
+h2{
+    text-align: center;
+}
+.table2{
+    margin: auto;
+    padding: 0px;
+}
+.fim{
+    padding-top: 30px;
+}

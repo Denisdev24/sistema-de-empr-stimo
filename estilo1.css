@@ -1,0 +1,122 @@
+.botao{
+    text-align: center;
+    margin-top: 50px;
+}
+.efeito{
+    border:none;
+    color:#ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor:pointer;
+    transition: all 400ms ease;
+}
+.efeito-1{
+    background-color: #376693;
+    transform-style: preserve-3d;
+}
+.efeito-1:after{
+    top:-100%;
+    left:0px;
+    width: 100px;
+    padding: 20px 3px;
+    position: absolute;
+    background: #008000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: '10X200';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+
+}
+.efeito-1:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+.efeito-2{
+    background-color: #376693;
+    transform-style: preserve-3d;
+}
+.efeito-2:after{
+    top:-100%;
+    left:0px;
+    width: 100px;
+    padding: 20px 3px;
+    position: absolute;
+    background: #008000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: '20X250';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+
+}
+.efeito-2:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+.efeito-3{
+    background-color: #376693;
+    transform-style: preserve-3d;
+}
+.efeito-3:after{
+    top:-100%;
+    left:0px;
+    width: 100px;
+    padding: 20px 3px;
+    position: absolute;
+    background: #008000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: '24X300';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+
+}
+.efeito-3:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+.efeito-4{
+    background-color: #376693;
+    transform-style: preserve-3d;
+}
+.efeito-4:after{
+    top:-100%;
+    left:0px;
+    width: 100%;
+    padding: 20px 3px;
+    position: absolute;
+    background: #008000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: '30X400';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+
+}
+.efeito-4:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+span{
+    color:#008000;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.escolha1{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    color:#008000;
+}
+span{
+    color:#008000;
+}
+input{
+    border-radius: 20px;
+   
+}
+h2{
+    text-align: center;
+}
+.botao{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border-radius: 20px;
+    font-size: 20px;
+    color:#008000;
+}

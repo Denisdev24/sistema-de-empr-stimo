@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0xp;
+    font-family: Arial Normal;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+span{
+    color:#008000;
+}
+a{
+    text-align: center;
+    font: 30px;
+    margin: 3px ;
+    padding-left: 30px;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+}
+.conterner{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+    
+input{
+    margin: 10px;
+    padding: 3px;
+    width: 500px;
+    border-radius: 2em ;
+    
+}
+.dados{
+    color: #008000;
+    padding: 3px;
+    width: 300px;
+    border-radius: 20px;
+}
+.topo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+button{
+    padding: 20px;
+    margin: 0px 10px;
+    width: 200px;
+    border-radius: 2em;
+
+}
+.linha1{
+    height: 2px;
+    width: 300px;
+    background-color:#008000;
+    margin:auto;
+}
+.estilo{
+    font-size: 30px;
+    color:black
+}
