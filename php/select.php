@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--estilo--> 
-    <link rel="stylesheet" href="escolha.css">
+    <link rel="stylesheet" href="css/escolha.css">
     <title>Document</title>
 </head>
 <body>

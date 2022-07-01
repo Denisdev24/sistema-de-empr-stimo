@@ -4,7 +4,7 @@ $score=$_POST['score'];
 if ($score >=500){
 require_once('select.php');
 }
-elseif($score==0){
+elseif($score==null){
     echo "<script>window.alert('Campo score em branco')</script>";
     require_once('index.php');
 }

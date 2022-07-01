@@ -1,17 +1,18 @@
     <?php
 
-    /*Recebendo os dados do formulario*/
-      /*  $nome=isset($_POST['nome'])?$_POST['nome']:"";
+   
+     /* $nome=isset($_POST['nome'])?$_POST['nome']:"";
         $cpf=isset ($_POST['cpf'])?$_POST['cpf']:"";
         $escolha=isset($_POST['escolha'])?$_POST['escolha']:"";
         $form=isset($_POST['form'])?$_POST['form']:"";*/
-
+        
+ /*Recebendo os dados do formulario*/
         $nome = $_POST['nome'];
         $cpf = $_POST['cpf'];
         $escolha = $_POST['escolha'];
 
         /*Condição*/
-        if($numero == null || $cpf2 == null){
+        if($nome == null || $cpf == null){
             echo "<script>window.alert('Campo nome ou cpf em branco')</script>";
             include_once('select.php');
         }

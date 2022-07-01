@@ -1,4 +1,6 @@
 <?php
+/*Site final*/
+ 
 $fim=$_POST['fim'];
 
 if($fim == 1){
